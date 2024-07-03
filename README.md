@@ -1,0 +1,1 @@
+This project focuses on using Document Object Model(DOM)

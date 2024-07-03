@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* uncomment this part to understand what div does to the website */
+/* div{
+  display: flex;
+  flex-direction: column;
+}  */
+
+button{
+  background-color: #2fb195;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #2a9c7e;
+}
+
+#counter{
+  margin: 0px;
+  font-size: 150px;
+
+  /* how to make gradient text */
+  background-image: linear-gradient(45deg, #a2790d, #ebd197, #bb9b49);
+  background-clip: text;
+  -webkit-background-clip: text; /* basically same as above but this is for older web browser compatibility */
+  color: transparent;
+}
